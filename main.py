@@ -1,9 +1,12 @@
 import pyautogui as pg
 import time
 
+#Open execute
 pg.hotkey("win","r")
+#Go to notepad
 pg.typewrite("notepad\n")
 time.sleep(1)
+#Start conversation
 pg.typewrite("Hi i'm python\n")
 pg.sleep(2)
 pg.typewrite("Sorry,...\n")
